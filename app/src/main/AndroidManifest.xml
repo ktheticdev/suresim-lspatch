@@ -9,4 +9,13 @@
         android:fullBackupContent="@xml/backup_rules"
         android:supportsRtl="true"
         tools:ignore="MissingApplicationIcon" />
+    <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="eSIM spoof" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="53" />
 </manifest>
