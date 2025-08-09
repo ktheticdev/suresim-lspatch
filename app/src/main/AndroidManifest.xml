@@ -3,13 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <application>
+    <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:supportsRtl="true"
-        tools:ignore="MissingApplicationIcon"
-    <meta-data
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules" >
+        <meta-data
             android:name="xposedmodule"
             android:value="true" />
         <meta-data
@@ -18,5 +18,5 @@
         <meta-data
             android:name="xposedminversion"
             android:value="53" />
-    </application>
+     </application>
 </manifest>
